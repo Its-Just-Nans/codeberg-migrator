@@ -1,5 +1,7 @@
 # git-migrator
 
+Check [./.env.example](/.env.example)
+
 ## Usage
 
 ```bash

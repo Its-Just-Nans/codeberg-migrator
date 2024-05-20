@@ -1,5 +1,6 @@
-from .__init__ import check_data, get_data, main
 from time import sleep
+from .__init__ import main
+from .lib import check_data, get_data
 
 
 if __name__ == "__main__":
