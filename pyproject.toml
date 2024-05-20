@@ -1,0 +1,28 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "git_migrator"
+version = "1.0.0"
+description = "Migrate git repositories"
+readme = "README.md"
+authors = [{ name = "n4n5", email = "its.just.n4n5@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["png", "tools", "cli"]
+requires-python = ">=3.6"
+
+dependencies = ["dotenv", "gitpython"]
+
+
+[project.urls]
+Homepage = "https://github.com/its-just-nans/git-migrator"
+"Bug Tracker" = "https://github.com/its-just-nans/git-migrator/issues"
